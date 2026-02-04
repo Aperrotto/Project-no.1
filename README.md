@@ -6,8 +6,8 @@ Text "bold text" text.
 This includes files for Project no. 1
 ## Overview
 This project analyzes air quality sensor data to explore patterns in:
-- Bullet PM 2.5
- - Bullet PM 10.0
+- PM 2.5
+- Bullet PM 10.0
 - Bullet VOC
 - Bullet Temperature & humidity categories
 - Bullet Altitude relationships
