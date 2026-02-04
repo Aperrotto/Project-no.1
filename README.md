@@ -11,8 +11,8 @@ Text 'inline code' text.
 This includes files for Project no. 1
 ## Overview
 This project analyzes air quality sensor data to explore patterns in:
--PM 2.5
--PM 10.0
+- Bullet PM 2.5
+ - Bullet PM 10.0
 -VOC
 -Temperature & humidity categories
 -Altitude relationships
