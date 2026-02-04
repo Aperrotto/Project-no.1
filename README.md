@@ -28,13 +28,13 @@ temperature
 humidity
 sensor.altitude
 ## Analysis Summary
-Step 1) Summary Statistics & Top Locations
+## Step 1) Summary Statistics & Top Locations
 Groups data by sensor.name
 Calculates mean/median for PM2.5, PM10, and VOC
 Finds top 5 locations by mean pollutant values
-Step 2) Max Values: When and Where?
+## Step 2) Max Values: When and Where?
 Identifies the dates and sensor locations where the maximum PM2.5, PM10, and VOC values occurred
-Step 3) Temperature & Humidity Categorization
+## Step 3) Temperature & Humidity Categorization
 Creates categories based on assignment bins:
 Humidity
 Low: < 50%
@@ -45,7 +45,7 @@ Below Freezing: < 32
 Cool: 32–50
 Warm: 51–70
 Hot: > 70
-Step 4) EPA Health Risk Screening (Simplified Categories)
+## Step 4) EPA Health Risk Screening (Simplified Categories)
 This step screens for potential air quality health risks using EPA-style category breakpoints applied directly to concentration values.
 For PM2.5:
 Good: 0.0–12.0
@@ -63,6 +63,6 @@ Very Unhealthy: 355–424
 Hazardous: > 424
 The code then filters and reports all events where:
 “Unhealthy for Sensitive Groups” or worse occurred and lists when and where those events happened for both PM2.5 and PM10.
-Step 5) Altitude vs Air Quality
+## Step 5) Altitude vs Air Quality
 Aggregates to one row per sensor
 Computes correlations between altitude and mean pollutant values
