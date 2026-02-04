@@ -7,21 +7,21 @@ This includes files for Project no. 1
 ## Overview
 This project analyzes air quality sensor data to explore patterns in:
 - PM 2.5
-- Bullet PM 10.0
-- Bullet VOC
-- Bullet Temperature & humidity categories
-- Bullet Altitude relationships
-- Bullet AQI health-risk screening (Unhealthy for Sensitive Groups or worse)
+- PM 10.0
+- VOC
+- Temperature & humidity categories
+- Altitude relationships
+- AQI health-risk screening (Unhealthy for Sensitive Groups or worse)
 ## Data Expectations 
 The analysis loads the CSV into a Pandas DataFrame named air_data. Key columns used:
-- Bullet date (formatted like mm/dd/yy)
-- Bullet sensor.name
-- Bullet pm2.5_atm
-- Bullet pm10.0_atm
-- Bullet voc
-- Bullet temperature
-- Bullet humidity
-- Bullet sensor.altitude
+- date (formatted like mm/dd/yy)
+- sensor.name
+- pm2.5_atm
+- pm10.0_atm
+- voc
+- temperature
+- humidity
+- sensor.altitude
 ## Analysis Summary
 ## Step 1) Summary Statistics & Top Locations
 - Bullet Groups data by sensor.name
