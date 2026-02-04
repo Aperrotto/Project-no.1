@@ -1,8 +1,5 @@
 # Project-1-Air Quality Analysis
-Text "bold text" text.
 ---
-## Project Files
-
 This includes files for Project no. 1
 ## Overview
 This project analyzes air quality sensor data to explore patterns in:
